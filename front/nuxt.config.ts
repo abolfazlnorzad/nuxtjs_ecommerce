@@ -13,6 +13,8 @@ export default defineNuxtConfig({
         public:{
             apiBase:"http://localhost:8000/api"
         }
+    },
+    build:{
+      transpile:["vue-toastification"]
     }
-
 })

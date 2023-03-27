@@ -3,10 +3,10 @@
   <Features />
   <ProductTabs />
   <AboutUs />
+  <ContactUs />
 </template>
 <script setup>
 
-import AboutUs from "~/components/AboutUs.vue";
 </script>
 
 <style scoped>
