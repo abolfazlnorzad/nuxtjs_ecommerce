@@ -51,9 +51,9 @@
                                         3
                                     </span>
                 </a>
-                <a href="login.html" class="btn-auth">
+                <nuxt-link :to="{name:'auth-login'}" class="btn-auth">
                   ورود
-                </a>
+                </nuxt-link>
               </div>
             </div>
           </nav>
