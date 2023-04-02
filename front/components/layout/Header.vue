@@ -27,7 +27,7 @@
                       class="nav-link" :to="{name:'index'}">صفحه اصلی</nuxt-link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="menu.html">منو</a>
+                  <nuxt-link class="nav-link" :to="{name:'menu'}">منو</nuxt-link>
                 </li>
                 <li class="nav-item"
                     :class="{active : $route.name == 'about-us'}"
