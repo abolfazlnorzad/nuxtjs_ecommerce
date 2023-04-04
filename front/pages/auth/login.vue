@@ -17,4 +17,7 @@
 
 <script setup>
 const showOtpForm = ref(false)
+definePageMeta({
+    middleware:["auth"]
+})
 </script>

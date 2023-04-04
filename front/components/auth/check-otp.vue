@@ -43,7 +43,7 @@ const checkOtp = async () => {
             body: {otp: otp.value},
         })
         authUser.value = data
-        toast.success("پیامک ورود با موفقیت ارسال شد.")
+        toast.success("شما با موفقیت وارد سایت شدید")
     } catch (e) {
         errors.value = Object.values(e.data.data.message).flat()
     } finally {
